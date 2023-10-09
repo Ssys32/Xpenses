@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "856530828293",
+    "project_id": "kotlin-firebase-465ca",
+    "storage_bucket": "kotlin-firebase-465ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856530828293:android:c013b794c092d22269f06c",
+        "android_client_info": {
+          "package_name": "com.example.xpenses"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "856530828293-9qvj3s9o4sh7mntc05aa1j0tqetrteqn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXASjDxD6LQ8S-r9yU3-xQHzLIrLutiCI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "856530828293-9qvj3s9o4sh7mntc05aa1j0tqetrteqn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

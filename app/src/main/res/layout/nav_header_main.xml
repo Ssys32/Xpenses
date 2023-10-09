@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="user"
+            type="com.example.xpenses.common.entities.FirebaseUser" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/nav_header_height"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:padding="@dimen/common_padding_default"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:background="@drawable/side_nav_bar">
+
+        <ImageView
+            android:id="@+id/imgProfile"
+            android:layout_width="@dimen/nav_header_img_size"
+            android:layout_height="@dimen/nav_header_img_size"
+            tools:src="@drawable/ic_account_circle"
+            android:contentDescription="@string/description_userImage"
+            app:glideUrl="@{user.photoUrl}"/>
+
+        <TextView
+            android:id="@+id/tcUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceSubtitle1"
+            android:text="@{user.displayName}"
+            tools:text="Jose Maria"/>
+
+    </LinearLayout>
+</layout>
